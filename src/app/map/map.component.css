@@ -1,0 +1,12 @@
+
+
+.leftColumn {
+    width: 70%; 
+    float: left;  
+    
+}
+
+  
+path.hovered {
+    fill: #ff506d !important;    
+}  

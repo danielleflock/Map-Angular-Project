@@ -1,0 +1,24 @@
+<div class="container">
+    <div class="rightColumn">
+        <div class="country-info">
+            <div *ngIf="selectedCountry">
+            <h3>Country: {{selectedCountry.name}}</h3>
+            <p>Capital: {{selectedCountry.capital}}</p>
+            <p>Region: {{selectedCountry.region}}</p>
+            <p>Income Level: {{selectedCountry.incomeLevel}}</p>
+            <p>Latitude: {{selectedCountry.latitude}}</p>
+            <p>Longitude: {{selectedCountry.longitude}}</p>
+            </div>
+            
+            <div *ngIf="!selectedCountry">
+            <h3>Country: </h3>
+            <p>Capital: </p>
+            <p>Region: </p>
+            <p>Income Level: </p>
+            <p>Latitude: </p>
+            <p>Longitude: </p>
+            </div>
+        </div>
+    </div>
+</div>
+  
